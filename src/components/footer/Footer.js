@@ -13,7 +13,7 @@ import {GrInstagram} from 'react-icons/gr'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <footer className='footer'>
             <img src={logo} alt="logo" className="footer__logo" />
       <div className="footer__wrapper">
 
@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
   
   )
 }
