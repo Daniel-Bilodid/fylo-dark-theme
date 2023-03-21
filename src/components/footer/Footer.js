@@ -76,7 +76,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          
+       
         </div>
+
+
+        {/* <div className="author">
+        Challenge by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/Daniel-Bilodid">Daniel Bilodid</a>.
+        </div> */}
       </footer>
   
   )

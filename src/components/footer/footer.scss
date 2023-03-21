@@ -138,10 +138,31 @@
     display: flex;
 }
 
+.author {
+  
+  margin-bottom: 0;
+   font-family: $openSans-variable;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #FFFFFF;
+}
+
+.author a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+
 
 @media screen and (max-width: 1600px) {
     .footer {
-        margin-left: 70px;
+        margin-left: 160px;
         
     }
 }
