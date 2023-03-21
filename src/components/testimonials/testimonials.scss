@@ -1,0 +1,134 @@
+.testimonials {
+    position: relative;
+    background-color: #181F2B;
+    height: 740px;
+    
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        padding-top: 174px;
+    }
+    &__card:nth-child(even) {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    &__card {
+        
+        width: 360px;
+        height: 200px;
+        background: #202A3C;
+        box-shadow: 5px 5px 8px 4px rgba(56, 56, 56, 0.0991282);
+        border-radius: 3.93258px;
+        &-descr {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 21px;
+            /* or 150% */
+
+            letter-spacing: 0.5px;
+            padding: 40px 24.7px 24px 26px;
+            color: #FFFFFF;
+        }
+        &-wrapper {
+            margin-left: 26px;
+            display: flex;
+        }
+        &-info {
+            margin-left: 10px;
+        }
+        &-name {
+            
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10.4px;
+            line-height: 12px;
+            /* identical to box height, or 120% */
+
+            letter-spacing: 0.5px;
+
+            color: #FFFFFF;
+
+        }
+        &-job {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 10px;
+            /* identical to box height, or 143% */
+            margin-top: 2px;
+            letter-spacing: 0.5px;
+
+            color: #FFFFFF;
+
+        }
+    }
+}
+
+.holder::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+   
+    height: 28.8125rem;
+    background: url(../../assets/images/bg-quotes.png) no-repeat bottom/25% 10%;
+    z-index: 1;
+    top: -17.5125rem;
+    left: 18.4rem;
+  }
+
+.card-img {
+    position: absolute;
+    top: 130px;
+    left: 365px;
+    z-index: 10;
+}
+
+
+@media screen and (max-width: 1200px) { 
+    .testimonials__wrapper {
+        flex-direction: column;
+        align-items:center;
+    }
+    .testimonials__card:nth-child(even) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .testimonials{
+        height: 1100px;
+    }
+    .card-img {
+        display: none;
+    }
+
+    .holder::before {
+        content: "";
+        position: absolute;
+        width: 0%;
+       
+        height: 28.8125rem;
+        background: url(../../assets/images/bg-quotes.png) no-repeat bottom/25% 10%;
+        z-index: 1;
+        top: -17.5125rem;
+        left: 18.4rem;
+      }
+    }
+
+   
+
+@media screen and (max-width: 376px) { 
+    .testimonials__card {
+        width: 283px;
+        height: 237px;
+    }
+    .testimonials__wrapper {
+        padding-top: 70px;
+    }
+    .card-img {
+        display: none;
+    }
+}

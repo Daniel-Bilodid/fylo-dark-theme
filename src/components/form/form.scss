@@ -1,0 +1,170 @@
+#get-started {
+    background: #1c2230;
+    width: 770px;
+    height: 215px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    position: relative;
+    top: -10rem;
+ 
+}
+
+#get-started input {
+    margin-top: 20px;
+    margin-right: 20.5px;
+    border: 0;
+    width: 58%;
+    height: 45px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 24px;
+    padding-left: 38px;
+}
+
+.get-started__wrapper {
+    display: flex;
+}
+.started-h2 {
+        margin: 0;
+        margin-top: 5px;
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32.5px;
+        line-height: 48px;
+        /* identical to box height, or 150% */
+        color: #FFFFFF;
+}
+
+
+
+#get-started {
+    margin: 0 auto;
+}
+
+#get-started p {
+    
+    text-align: center;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.get-started__btn {
+    width: 27%;
+    height: 52px;
+    margin-top: 20px;
+    
+    background: linear-gradient(129.57deg, #63E1D9 -26.63%, #34A0CD 100%);
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    border: 0;
+    color: #FFFFFF;
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    
+
+    /******get started*************/
+    #get-started {
+        width: 80%;
+        /* text-align: center; */
+    }
+    /**********productive**********/
+  
+}
+
+
+/****** Extra small devices only *****/
+
+@media (max-width: 767px) {
+
+    
+    /*********** Get started ***********/
+    #get-started {
+        width: 70%;
+        text-align: center;
+    }
+    #get-started .btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+ 
+}
+
+@media screen and (max-width: 426px) {   
+.started-h2 {
+    font-size: 18px;
+line-height: 24px;
+}
+#get-started {
+    height: 353px;
+}
+#get-started p {
+    
+    width: 280px;
+    height: 84px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+}
+.get-started__wrapper  {
+    display: block;
+}
+
+#get-started input {
+    width: 245px;
+    height: 48px;
+    background: #FFFFFF;
+box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+border-radius: 24px;
+    margin-left: 6px;
+    
+}
+
+.get-started__btn {
+    width: 280px;
+    height: 48px;
+    background: linear-gradient(132.02deg, #63E1D9 -31.85%, #34A0CD 100%);
+box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+border-radius: 24px;
+}
+}
+
+@media screen and (max-width: 376px) { 
+    #get-started input {
+        margin-left: -29px;
+    }
+    .get-started__btn {
+        margin-left: -26px;
+    }
+    #get-started p {
+        width: 226px;
+        margin-bottom: 20px;
+    }
+}

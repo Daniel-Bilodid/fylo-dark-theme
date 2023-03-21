@@ -1,13 +1,36 @@
+html {
+  margin-left: -8px;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  position: relative;
+   background-color: #202A3C;
+  z-index: -1;
+  overflow-x: hidden;
+}
+.bg-dark-blue-main {
+  width: 100%;
+  background-color: #202A3C;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.curve {
+  background-color: #202A3C;
+  z-index: -1;
+}
+
+.curve::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 28.8125rem;
+  background: url(./assets/images/bg-curvy-mobile.svg) no-repeat bottom/100% 100%;
+  z-index: -1;
+  top: 47.8125rem;
+}
+
+@media screen and (max-width: 426px) {  
+
+  .curve::before {
+    top: 24rem;
+  }
 }
