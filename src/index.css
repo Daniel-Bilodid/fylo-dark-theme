@@ -1,9 +1,13 @@
+
+
+
 html {
   margin-left: -8px;
+  
 }
 body {
   width: 100%;
-
+ 
   position: relative;
    background-color: #1B2330;
   z-index: -10;
@@ -16,7 +20,7 @@ body {
 
 .curve {
   background-color: #202A3C;
-  z-index: -1;
+  z-index: -10;
 }
 
 .curve::before {
@@ -25,7 +29,7 @@ body {
   width: 100%;
   height: 28.8125rem;
   background: url(./assets/images/bg-curvy-mobile.svg) no-repeat bottom/100% 100%;
-  z-index: -1;
+  z-index: -10;
   top: 47.8125rem;
 }
 

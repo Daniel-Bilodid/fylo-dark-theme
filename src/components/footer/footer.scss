@@ -1,6 +1,9 @@
+@import '../variables';
+
+
 .footer {
     
-    margin-left: 350px;
+    margin-left: 394px;
     margin-top: -50px;
     &__logo {
         margin-top: -35px;
@@ -20,7 +23,7 @@
         }
         &-number a {
             text-decoration: none;
-            font-family: sans-serif;
+            font-family:  $openSans-variable;
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -36,7 +39,7 @@
         margin-top: 18px;
         &-link {
             margin-left: 21px;
-            font-family: sans-serif;
+            font-family:  $openSans-variable;
             font-style: normal;
             font-weight: 400;
             font-size: 15px;
@@ -54,7 +57,7 @@
         &-item {
             margin-top: -22px;
             margin-bottom: 37px;
-            font-family: sans-serif;
+            font-family:  $openSans-variable;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -101,10 +104,10 @@
         height: 72px;
         margin-left: 28px;
         margin-top: -3px;
-        font-family:sans-serif;
+        font-family: $openSans-variable;
         font-style: normal;
         font-weight: 400;
-        font-size: 17px;
+        font-size: 16.2px;
         line-height: 23px;
         /* or 150% */
 
@@ -144,7 +147,7 @@
 
 @media screen and (max-width: 1200px) {
     .footer {
-        margin-left: 0px;
+        margin-left: 25px;
         
     }
     .footer__contact {
@@ -165,4 +168,5 @@
         width: 261px;
         margin-bottom: 20px;
     }
+    
 }

@@ -1,3 +1,6 @@
+@import '../variables';
+
+
 #get-started {
     background: #1c2230;
     width: 770px;
@@ -10,12 +13,12 @@
 }
 
 #get-started input {
-    margin-top: 20px;
-    margin-right: 20.5px;
+    margin-top: 25px;
+    margin-right: 21.5px;
     border: 0;
     width: 58%;
     height: 45px;
-    margin-left: 20px;
+    margin-left: 25px;
     background: #FFFFFF;
     box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
     border-radius: 24px;
@@ -29,13 +32,14 @@
         margin: 0;
         margin-top: 5px;
         text-align: center;
-        font-family: sans-serif;
+        font-family: $raleway-variable;
         font-style: normal;
         font-weight: 700;
         font-size: 32.5px;
         line-height: 48px;
         /* identical to box height, or 150% */
         color: #FFFFFF;
+        
 }
 
 
@@ -51,13 +55,12 @@
     margin-left: 60px;
     margin-right: 60px;
 
-    font-family: sans-serif;
+    font-family: $openSans-variable;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 21px;
     /* or 150% */
-
     text-align: center;
 
     color: #FFFFFF;
@@ -66,13 +69,13 @@
 .get-started__btn {
     width: 27%;
     height: 52px;
-    margin-top: 20px;
+    margin-top: 25px;
     
     background: linear-gradient(129.57deg, #63E1D9 -26.63%, #34A0CD 100%);
     box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
     border-radius: 24px;
     cursor: pointer;
-    font-family: sans-serif;
+    font-family: $raleway-variable;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

@@ -1,3 +1,7 @@
+@import '../variables';
+
+
+
 .info {
     
     
@@ -8,23 +12,25 @@
         height: 215px;
     }
     &__card-title {
-        font-family: sans-serif;
+        font-family: $raleway-variable;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 23px;
         text-align: center;
         margin-bottom: 9px;
         color: #FFFFFF;
 
     }
+    
     &__card-descr {
+        margin-top: 15px;
         width: 388px;
         height: 49px;
-        font-family: sans-serif;
+        font-family: $openSans-variable;
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 14.5px;
         line-height: 21px;
         /* or 150% */
     
