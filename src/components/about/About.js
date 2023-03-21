@@ -9,9 +9,9 @@ const About = () => {
             <div className="about__img">
                 <img src={aboutImg} alt="aboutImg" />
             </div>
-            <h1>test</h1>
+            
             <div className="about__title">
-            <div>All your files in one secure location, accessible anywhere.</div>
+            <h1>All your files in one secure location, accessible anywhere.</h1>
             </div>  
             <div className="about__descr">
             Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.

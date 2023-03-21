@@ -70,14 +70,15 @@
 
 .holder::before {
     content: "";
+    z-index: 1;
     position: absolute;
     width: 10%;
    
     height: 28.8125rem;
-    background: url(../../assets/images/bg-quotes.png) no-repeat bottom/25% 10%;
-    z-index: 1;
-    top: -17.5125rem;
-    left: 18.4rem;
+    background: url(../../assets/images/bg-quotes.png) no-repeat top/2rem 2rem;
+    background-position: left 20% top -5%;
+   
+
   }
 
 .card-img {

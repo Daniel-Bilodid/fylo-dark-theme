@@ -9,7 +9,7 @@
         justify-content: center;
     }
     h1 {
-        display: none;
+       font-size: 40px;
     }
     &__title {
       
@@ -82,10 +82,15 @@
         height: 225px;
         margin: 0 auto;
     }
-    .about__title {
-        width: 320px;
+    .about__title h1{
+        width: 319px;
         line-height: 36px;
-        font-size: 24px;
+        font-size: 25px;
+    }
+    .about__title {
+        width: 319px;
+        line-height: 36px;
+        font-size: 25px;
     }
     .about__descr {
         margin-top: 5px;
