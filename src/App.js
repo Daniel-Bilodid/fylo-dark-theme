@@ -19,10 +19,14 @@ function App() {
       <Productive></Productive>
       <Testimonials></Testimonials>
       </div>
+      
+      <div className="bg">
       <Form></Form>
+      </div>
       </main>
+      <div className='bg'>
         <Footer></Footer>
-     
+        </div>
    
       
     </>
