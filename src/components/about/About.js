@@ -4,7 +4,7 @@ import aboutImg from '../../assets/images/illustration-intro.png'
 
 const About = () => {
   return (
-    <main className='about'>
+    <div className='about'>
         <div className="about__wrapper">
             <div className="about__img">
                 <img src={aboutImg} alt="aboutImg" />
@@ -22,7 +22,7 @@ const About = () => {
             </div>
         </div>
       
-    </main>
+    </div>
   )
 }
 
