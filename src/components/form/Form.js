@@ -18,7 +18,7 @@ const Form = () => {
         </p>
         
         <div className="get-started__wrapper">
-        <input type="input" className='get-started__input' placeholder='email@example.com' required />
+        <input type="email" className='get-started__input' placeholder='email@example.com' required />
         <button className='get-started__btn' type='submit' >Get Started For Free</button>
         </div>
     </section>
