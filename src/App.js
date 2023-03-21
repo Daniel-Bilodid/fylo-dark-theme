@@ -9,9 +9,9 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <>
-     <main id='main'>
+    
       <Nav></Nav>
-     
+      <main id='main'>
       <About></About>
       
       <Info></Info>
@@ -20,9 +20,10 @@ function App() {
       <Testimonials></Testimonials>
       </div>
       <Form></Form>
+      </main>
         <Footer></Footer>
      
-      </main>
+   
       
     </>
   );
