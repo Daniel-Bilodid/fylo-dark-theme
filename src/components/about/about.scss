@@ -8,7 +8,9 @@
         display: flex;
         justify-content: center;
     }
- 
+    h1 {
+        display: none;
+    }
     &__title {
       
         margin: 0 auto;

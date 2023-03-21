@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.scss'
 import aboutImg from '../../assets/images/illustration-intro.png'
-import infoBg from '../../assets/images/bg-curvy-desktop.svg'
+
 const About = () => {
   return (
     <main className='about'>
@@ -9,7 +9,7 @@ const About = () => {
             <div className="about__img">
                 <img src={aboutImg} alt="aboutImg" />
             </div>
-            
+            <h1>test</h1>
             <div className="about__title">
             <div>All your files in one secure location, accessible anywhere.</div>
             </div>  

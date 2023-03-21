@@ -3,6 +3,7 @@ html {
 }
 body {
   width: 100%;
+
   position: relative;
    background-color: #1B2330;
   z-index: -1;
